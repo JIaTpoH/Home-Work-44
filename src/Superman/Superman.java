@@ -4,5 +4,19 @@ package Superman;
 // "Умеет бегать" CanRun с методом run
 // "умеет плавать" CanSwim с методом swim
 //  реализуйте их в классе "Супермен" Superman.
-public class Superman {
+public class Superman implements CanFly,CanRun,CanSwim{
+  @Override
+  public void fly() {
+
+  }
+
+  @Override
+  public void run() {
+
+  }
+
+  @Override
+  public void swim() {
+
+  }
 }

@@ -1,5 +1,8 @@
 package Superman;
 
 public interface CanRun {
-  void run();
+  Integer SPEED = 100;
+
+  void run(String message, Integer speed);
+
 }

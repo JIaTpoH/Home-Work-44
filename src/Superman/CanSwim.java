@@ -1,5 +1,5 @@
 package Superman;
 
 public interface CanSwim {
-  void swim();
+  void swim(String message);
 }

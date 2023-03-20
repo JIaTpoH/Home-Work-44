@@ -1,5 +1,6 @@
 package Superman;
 
 public interface CanFly {
-  void fly();
+
+  void fly(String message);
 }
